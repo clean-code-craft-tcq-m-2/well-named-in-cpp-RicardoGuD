@@ -1,4 +1,4 @@
-#include "Colorpair.hpp"
+#include "Colorpair.h"
 
 using namespace TelCoColorCoder;
 
