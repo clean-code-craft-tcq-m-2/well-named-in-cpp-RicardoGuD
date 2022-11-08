@@ -1,7 +1,7 @@
 #include <iostream>
 #include <assert.h>
 
-#include "Colorpair.h"
+#include "ColorPair.h"
 #include "testColors.h"
 
 int main() {
