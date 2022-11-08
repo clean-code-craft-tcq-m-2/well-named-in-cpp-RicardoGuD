@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <iostream>
-#include "Colorpair.h"
+#include "ColorPair.h"
 
 
 void testNumberToPair(int pairNumber,
