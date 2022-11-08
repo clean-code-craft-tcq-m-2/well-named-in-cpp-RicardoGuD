@@ -1,3 +1,7 @@
+
+#ifndef ColorPair_h
+#define ColorPair_h
+
 #include <stdio.h>
 #include <string>
 
@@ -29,3 +33,4 @@ namespace TelCoColorCoder
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 
 }
+#endif
