@@ -1,7 +1,9 @@
+#ifndef testColors_hpp
+#define testColors_hpp
+
 #include <stdio.h>
 #include <iostream>
 #include "ColorPair.h"
-
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
