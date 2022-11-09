@@ -1,6 +1,7 @@
 #include <iostream>
 #include <assert.h>
 
+#include "PrintManual.h"
 #include "testColors.h"
 
 int main() {
@@ -9,5 +10,7 @@ int main() {
 
     testPairToNumber(TelCoColorCoder::MajorColor::BLACK, TelCoColorCoder::MinorColor::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::MajorColor::VIOLET, TelCoColorCoder::MinorColor::SLATE, 25);
+    
+    printmanual();
     return 0;
 }
