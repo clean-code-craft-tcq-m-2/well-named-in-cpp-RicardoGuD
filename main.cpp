@@ -11,6 +11,6 @@ int main() {
     testPairToNumber(TelCoColorCoder::MajorColor::BLACK, TelCoColorCoder::MinorColor::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::MajorColor::VIOLET, TelCoColorCoder::MinorColor::SLATE, 25);
     
-    printmanual();
+    printManual();
     return 0;
 }
