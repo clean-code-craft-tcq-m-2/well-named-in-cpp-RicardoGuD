@@ -1,5 +1,5 @@
-#ifndef testColors_hpp
-#define testColors_hpp
+#ifndef testColors_h
+#define testColors_h
 
 #include <stdio.h>
 #include <iostream>
@@ -7,11 +7,11 @@
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
-                      TelCoColorCoder::MinorColor expectedMinor);
+    TelCoColorCoder::MinorColor expectedMinor);
 
 void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
-                      int expectedPairNumber);
+    int expectedPairNumber);
 
 #endif /* testColors_h */
